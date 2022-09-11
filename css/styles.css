@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 .trigram {
@@ -15,9 +16,12 @@
 .menu-list {
     display: flex;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-list li {
     padding: 0 10px;
+
 }
 
