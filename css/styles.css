@@ -5,6 +5,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .trigram {
@@ -13,4 +14,10 @@
 
 .menu-list {
     display: flex;
+    padding: 10px;
 }
+
+.menu-list li {
+    padding: 0 10px;
+}
+
