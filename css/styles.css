@@ -1,11 +1,11 @@
 .logo {
-    width: 100px;
+    width: var(--size-100);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: var(--size-20);
     align-items: center;
 }
 
@@ -15,7 +15,7 @@
 
 .menu-list {
     display: flex;
-    padding: 10px;
+    padding: var(--size-10);
     justify-content: center;
     align-items: center;
 }
@@ -36,19 +36,19 @@
 .btn-play-video {
     background-color: var(--blue);
     color: var(--white);
-    border-radius: 20px;
-    padding: 10px 20px;
+    border-radius: var(--size-20);
+    padding: var(--size-10) var(--size-20);
 }
 
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: var(--size-20);
+    padding: var(--size-20);
 }
 
 .icon-grid img {
-    width: 50px;
+    width: var(--size-50);
 }
 
 .icon-grid .google {
@@ -84,5 +84,44 @@
 .icon-grid .calendar {
     grid-column: 5/7;
     grid-row: 3/5;
+}
+
+.benefits {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: var(--size-20);
+    padding: var(--size-10);
+    width: fit-content;
+    
+}
+
+.card {
+    border: 1px solid red;
+    padding: var(--size-10);
+    box-shadow: var(--size-10) var(--size-10) var(--size-50) grey;
+}
+
+.card h3 {
+    padding: var(--size-10);
+}
+
+.card span {
+    background-color: green;
+    color: var(--white);
+    padding: 5px;
+    border-radius: var(--size-30);
+}
+.card img {
+    width: 45px;
+    padding: 5px;
+}
+
+.card a {
+    font: bold;
+    color: var(--blue);
 }
 
