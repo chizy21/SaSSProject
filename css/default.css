@@ -70,7 +70,8 @@ img {
     transition: ease-in-out 0.3s;
 }
 
-.btn-buynow {
+.btn-buynow,
+.btn-form {
     color: var(--white);
     background-color: var(--blue);
     border-color: var(--blue);
