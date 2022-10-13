@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding: var(--size-20);
     align-items: center;
+    background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44), 17.61%, rgba(217, 217, 217, 0) 55.85%);
 }
 
 .trigram {
