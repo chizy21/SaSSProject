@@ -39,6 +39,7 @@ ul {
 html {
     scroll-behavior: smooth;
     margin: auto;
+    width: 1025px;
 }
 
 .body {

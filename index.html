@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>SaSS Project</title>
     <meta name="description" content="My SaSS Project">
+    <meta name="author" content="Greg Perry">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +42,6 @@
                 </ul>
             </nav>
         </div>
-        
     </div>
     <div class="jumbotron">
         <div class="jumbotron-content">
@@ -134,12 +134,15 @@
         <div>
             <p>Basic elements</p>
         </div>
+        <hr>
         <div>
             <p>Components</p>
         </div>
+        <hr>
         <div>
             <p>Combined components</p>
         </div>
+        <hr>
         <div>
             <p>Page layouts</p>
         </div>
@@ -153,7 +156,8 @@
         <img src="/assets/people/woman_three.jpg" alt="christinakray">
         <div class="test-info">
             <div>
-                <img src="/assets/company_logos/hubspot.svg" alt="hubspot">
+                <img src="/assets/company_logos/hubspot.svg" alt="hubspot" class="girl-pic">
+                <img src="/assets/abstract/dots.svg" alt="dots" class="dots">
             </div>
             <div class="test-info-txt">
                 <p>The template is really nice and offers quite a large set of options.  It's beautiful and the coding is done quickly and seamlessly. Thank you!</p>
@@ -237,19 +241,19 @@
             <div class="form">
                 <p>Fill out the form and we'll be in touch as soon as possible.</p>
                 <form action="submit.php">
-                    <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="email" placeholder="email@email.com">
-                <input type="text" placeholder="Company">
-                <select name="budget" id="budget">
-                    <option value="" selected disabled>Budget</option>
-                    <option value="10kless">10k or less</option>
-                    <option value="11to25k">11k to 25k</option>
-                    <option value="26k and up"></option>
-                </select>
-                <select name="country" id="country">
-                    <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
-                    <optgroup id="country-optgroup-Africa" label="Africa">
+                    <input type="text" class="firstname" placeholder="First Name">
+                    <input type="text" class="lastname" placeholder="Last Name">
+                    <input type="email" class="email" placeholder="email@email.com">
+                    <input type="text" class="company" placeholder="Company">
+                    <select name="budget" class="budget" id="budget">
+                        <option value="" selected disabled>Budget</option>
+                        <option value="10kless">10k or less</option>
+                        <option value="11to25k">11k to 25k</option>
+                        <option value="26k and up"></option>
+                    </select>
+                    <select name="country" class="country" id="country">
+                        <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+                            <optgroup id="country-optgroup-Africa" label="Africa">
                         <option value="DZ" label="Algeria">Algeria</option>
                         <option value="AO" label="Angola">Angola</option>
                         <option value="BJ" label="Benin">Benin</option>
@@ -511,8 +515,8 @@
                         <option value="VU" label="Vanuatu">Vanuatu</option>
                         <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                     </optgroup>
-                </select>
-                <textarea id="memo" name="memo" rows="4" cols="50" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
+                    </select>
+                <textarea id="memo" class="memo" name="memo" rows="4" cols="50" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
                 <br>
                 <p>Yes, I'd like to receive occasional marketing emails<br>from Front. I have the right to opt out at any time.</p>
                 <br>
