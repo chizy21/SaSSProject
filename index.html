@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <div class="header" id="pageTop">
+    <div class="headder-img">
+<div class="header" id="pageTop">
         <div class="logo">
             <a href="#"><img src="./assets/project_logo/logo.svg" alt="Front Logo"></a>
         </div>
@@ -73,6 +74,8 @@
             </div>
         </div>
     </div>
+    </div>
+    
 
     <section class="benefits">
         <h2>Key Benefits</h2>
@@ -153,16 +156,16 @@
     </section>
 
     <section class="testimonial">
-        <img src="/assets/people/woman_three.jpg" alt="christinakray">
+        <div class="test-imgs">
+            <img src="/assets/people/woman_three.jpg" alt="christinakray" class="girl-pic">
+            <img src="/assets/abstract/dots.svg" alt="dots" class="dots">
+        </div>
         <div class="test-info">
-            <div>
-                <img src="/assets/company_logos/hubspot.svg" alt="hubspot" class="girl-pic">
-                <img src="/assets/abstract/dots.svg" alt="dots" class="dots">
+            <div class="hubspot-img">
+                <img src="/assets/company_logos/hubspot.svg" alt="hubspot">
             </div>
             <div class="test-info-txt">
                 <p>The template is really nice and offers quite a large set of options.  It's beautiful and the coding is done quickly and seamlessly. Thank you!</p>
-            </div>
-            <div>
                 <h3>Christina Kay</h3>
                 <h4>Executive Director</h4>
             </div>
@@ -185,7 +188,9 @@
     </section>
     <section class="price">
         <div class="price-info">
-            <span class="price-large">59</span> / mo
+            <div>
+                <span class="price-large">59</span> / mo
+            </div>
         <hr>
             <p>Start your Front business now. 100% guaranteed money back. No questions asked.</p>
             <a href="#">
@@ -200,7 +205,8 @@
             </a>
             <p>No credit card required</p>
         </div>
-        <div class="price-card">
+        <div class="price-grid">
+            <div class="price-card">
             <img src="/assets/icons/components.svg" alt="components">
             <h3>Hundreds of components</h3>
             <p>Achieve maximum productivity with minimum effort with Front and create robust Limitless products.</p>
@@ -220,8 +226,8 @@
             <h3>Money back</h3>
             <p>100% guaranteed money back. No questions asked.</p>
         </div>
+        </div>
     </section>
-
     <!--Hire us-->
     <section>
         <div class="hire-us">
@@ -239,7 +245,7 @@
                 </div>
             </div>
             <div class="form">
-                <p>Fill out the form and we'll be in touch as soon as possible.</p>
+                <h3>Fill out the form and we'll be in touch as soon as possible.</h3>
                 <form action="submit.php">
                     <input type="text" class="firstname" placeholder="First Name">
                     <input type="text" class="lastname" placeholder="Last Name">
