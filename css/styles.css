@@ -477,3 +477,59 @@
   align-items: center;
   padding: var(--size-20);
 }
+
+#backToTopButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #000000;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e1e7ef;
+}
+
+.back-to-top-button-close {
+  animation-name: back-to-top-button-hide;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.back-to-top-button-open {
+  animation-name: back-to-top-button-appear;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes back-to-top-button-hide {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  1% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@keyframes back-to-top-button-appear {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}

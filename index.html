@@ -14,16 +14,19 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <script src="https://kit.fontawesome.com/d39bd552a9.js" crossorigin="anonymous"></script>
+    <script defer src="/js/scripts.js"></script>
 </head>
 
 <body>
     <div class="headder-img">
-<div class="header" id="pageTop">
+<div class="header" id="pageTop" id="sticky-header">
         <div class="logo">
             <a href="#"><img src="./assets/project_logo/logo.svg" alt="Front Logo"></a>
         </div>
-        <div class="trigram">
-            <i class="fas fa-bars"></i>
+        <div class="header-top-menu-trigram">
+            <div class="trigram-tap-holder" id="trigram">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
         <div class="top-menu">
             <nav>
@@ -790,6 +793,6 @@
                 <p>When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
             </div>
         </footer>
+        <a href="#pageTop" id="backToTopButton" class="invisible"><i class="fa fa-angle-up"></i></a>
 </body>
-
 </html>
