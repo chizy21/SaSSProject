@@ -21,7 +21,7 @@
     <div class="headder-img">
 <div class="header" id="pageTop" id="sticky-header">
         <div class="logo">
-            <a href="#"><img src="./assets/project_logo/logo.svg" alt="Front Logo"></a>
+            <a href="#"><img src="/assets/project_logo/logo.svg" alt="Front Logo"></a>
         </div>
         <div class="header-top-menu-trigram">
             <div class="trigram-tap-holder" id="trigram">
@@ -253,15 +253,15 @@
                     <input type="text" class="firstname" placeholder="First Name">
                     <input type="text" class="lastname" placeholder="Last Name">
                     <input type="email" class="email" placeholder="email@email.com">
-                    <input type="text" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}" placeholder="1-123-456-7890"/ class="phone">
-                    <select name="budget" class="budget" id="budget">
-                        <option value="" selected disabled>Budget</option>
+                    <input type="text" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}" placeholder="1-123-456-7890" class="phone">
+                    <select name="budget" class="budget" id="budget" required>
+                        <option value="" disabled selected >Budget</option>
                         <option value="10kless">10k or less</option>
                         <option value="11to25k">11k to 25k</option>
-                        <option value="26k and up"></option>
+                        <option value="26k and up">26k and up</option>
                     </select>
-                    <select name="country" class="country" id="country">
-                        <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
+                    <select name="country" class="country" id="country" required>
+                        <option value="" disabled selected>Select a country ... </option>
                             <optgroup id="country-optgroup-Africa" label="Africa">
                         <option value="DZ" label="Algeria">Algeria</option>
                         <option value="AO" label="Angola">Angola</option>
@@ -527,13 +527,16 @@
                     </select>
                 <textarea id="memo" class="memo" name="memo" rows="4" cols="50" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
                 <br>
-                <p>Yes, I'd like to receive occasional marketing emails<br>from Front. I have the right to opt out at any time.</p>
+                <div class="form-privacy">
+                    <p>Yes, I'd like to receive occasional marketing emails<br>from Front. I have the right to opt out at any time.</p>
                 <br>
                 <div class="privacy">
                     <a href="#">View privacy policy</a>
                     <a href="#">View privacy policy</a>
                 </div><br>
                 <a href="#" class="btn-form">Get Started</a>
+                </div>
+                
                 </form>
             </div>
         </div>
