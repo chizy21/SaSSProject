@@ -113,6 +113,10 @@
   box-shadow: var(--size-10) var(--size-10) var(--size-50) grey;
 }
 
+.card:hover {
+  background-color: lightgrey;
+}
+
 .card h3 {
   padding: var(--size-10);
 }
