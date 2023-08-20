@@ -15,7 +15,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 719px) {
   #sticky-header {
     z-index: 200;
   }
@@ -29,23 +29,119 @@
     right: 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
+
+  .header-top-menu-trigram {
+    display: none;
+    color: #2576ff;
+    position: relative;
+    top: 2px;
+    margin-left: auto;
+  }
+  .header-top-menu-trigram .trigram-tap-holder {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-front-image {
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    position: relative;
+  }
+  .why-front-image img {
+    grid-column: 1/-1;
+    width: 100%;
+  }
+  .why-front-image .player-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-front-image .player-layer .play-container {
+    background-color: #ffffff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 3px 12px rgba(32, 32, 35, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-front-image .player-layer .play-container i {
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
 }
 
-.header-top-menu-trigram {
-  display: none;
-  color: #2576ff;
-  position: relative;
-  top: 2px;
-  margin-left: auto;
-}
-.header-top-menu-trigram .trigram-tap-holder {
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@media only screen and (min-width: 719px) and (max-width: 1023px) {
+  #sticky-header {
+    z-index: 200;
+  }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-  ...;
+  .main-grid-sticky-header-trigram {
+    background-color: #ffffff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .header-top-menu-trigram {
+    display: none;
+    color: #2576ff;
+    position: relative;
+    top: 2px;
+    margin-left: auto;
+  }
+  .header-top-menu-trigram .trigram-tap-holder {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why-front-image {
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    position: relative;
+  }
+  .why-front-image img {
+    grid-column: 1/-1;
+    width: 100%;
+  }
+  .why-front-image .player-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-front-image .player-layer .play-container {
+    background-color: #ffffff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 3px 12px rgba(32, 32, 35, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-front-image .player-layer .play-container i {
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
 }
